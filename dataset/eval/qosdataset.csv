@@ -1,0 +1,31 @@
+ID	Requirement	Configuration Type
+1	Implement traffic shaping on Router1 to limit bandwidth for HTTP traffic.	Packet Forwarding
+2	Configure Router2 to prioritize VoIP traffic over other traffic types.	Packet Forwarding
+3	Implement Class-Based Weighted Fair Queuing (CBWFQ) on Router3 for LAN traffic.	Packet Forwarding
+4	Configure Router4 to classify and mark packets for expedited forwarding (EF).	Packet Forwarding
+5	Implement policy-based QoS on Router1 to prioritize traffic from specific VLANs.	Access-lists
+6	Configure Router2 to apply traffic policing to limit outbound traffic on WAN interface.	Packet Forwarding
+7	Implement Low Latency Queuing (LLQ) on Router3 for real-time application traffic.	Packet Forwarding
+8	Set up Router4 to throttle P2P traffic to prevent it from consuming excessive bandwidth.	Packet Forwarding
+9	Configure Router1 to prioritize VoIP traffic based on DSCP markings.	Packet Forwarding
+10	Implement Weighted Random Early Detection (WRED) on Router2 to manage congestion.	Packet Forwarding
+11	Configure Router3 to apply rate limiting on specific subnets.	Packet Forwarding
+12	Set up Router4 to prioritize video conferencing traffic.	Packet Forwarding
+13	Implement Priority Queuing on Router1 for critical application traffic.	Packet Forwarding
+14	Configure Router2 to prioritize SIP traffic over HTTP traffic.	Packet Forwarding
+15	Implement Class-Based Policing (CBP) on Router3 to control traffic rate.	Packet Forwarding
+16	Configure Router4 to implement traffic shaping based on ACLs.	Packet Forwarding
+17	Set up Router1 to apply QoS policies based on MAC addresses.	Access-lists
+18	Implement Link Fragmentation and Interleaving (LFI) on Router2 for VoIP traffic.	Packet Forwarding
+19	Configure Router3 to prioritize interactive traffic using IP precedence.	Packet Forwarding
+20	Implement Traffic Classification on Router4 to distinguish between different traffic types.	Packet Forwarding
+21	Configure Router1 to apply shaping to outbound traffic based on IP addresses.	Packet Forwarding
+22	Implement Class-Based Shaping on Router2 to manage bandwidth usage.	Packet Forwarding
+23	Configure Router3 to classify and mark packets using NBAR (Network-Based Application Recognition).	Packet Forwarding
+24	Set up Router4 to prioritize VoIP traffic using QoS pre-classification.	Packet Forwarding
+25	Implement Policer on Router1 to limit traffic from specific VLANs.	Packet Forwarding
+26	Configure Router2 to prioritize traffic based on MPLS EXP markings.	Packet Forwarding
+27	Implement Class-Based Traffic Management on Router3 for traffic shaping.	Packet Forwarding
+28	Configure Router4 to prioritize video streaming traffic using IP precedence.	Packet Forwarding
+29	Set up Router1 to apply QoS based on Layer 3 IP Precedence values.	Packet Forwarding
+30	Implement Per-Hop Behavior (PHB) scheduling on Router2 for critical applications.	Packet Forwarding

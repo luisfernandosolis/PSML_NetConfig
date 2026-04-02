@@ -1,0 +1,31 @@
+ID	Requirement	Configuration Type
+1	Allow HTTP traffic from LAN to WAN on Router1	Access-lists
+2	Permit ICMP echo requests from Router3 LAN to Router2 LAN	Access-lists
+3	Deny Telnet traffic from Router4 to any destination	Access-lists
+4	Allow SSH traffic from Router2 LAN to Router1 LAN	Access-lists
+5	Permit SNMP traffic from Management Network to all routers	Access-lists
+6	Deny FTP traffic from Router1 to external networks	Access-lists
+7	Allow DNS traffic from LAN to WAN on Router3	Access-lists
+8	Permit ICMP echo replies from WAN to LAN on Router4	Access-lists
+9	Deny UDP traffic on port 69 from LAN to WAN on Router2	Access-lists
+10	Allow NTP traffic from Router4 to external time servers	Access-lists
+11	Permit SMTP traffic from Router1 LAN to Router3 LAN	Access-lists
+12	Deny SNMP traffic from WAN to LAN on Router2	Access-lists
+13	Allow TFTP traffic from Router3 to Router4	Access-lists
+14	Permit HTTPS traffic from LAN to WAN on Router1	Access-lists
+15	Deny NetBIOS traffic from Router2 to Router1	Access-lists
+16	Allow ICMP traffic from Router1 to Router4	Access-lists
+17	Permit SNMP traps from Router3 to Management Network	Access-lists
+18	Deny Telnet traffic from WAN to LAN on Router4	Access-lists
+19	Allow SSH traffic from WAN to Router3	Access-lists
+20	Permit HTTP traffic from Router2 to Router1	Access-lists
+21	Deny ICMP traffic from Router4 to Router2	Access-lists
+22	Allow FTP traffic from LAN to WAN on Router2	Access-lists
+23	Permit ICMP traffic from WAN to LAN on Router1	Access-lists
+24	Deny DNS traffic from Router1 LAN to Router2 LAN	Access-lists
+25	Allow SMTP traffic from LAN to WAN on Router4	Access-lists
+26	Permit SSH traffic from Management Network to all routers	Access-lists
+27	Deny SNMP traffic from Router2 to Router4	Access-lists
+28	Allow Telnet traffic from Router1 LAN to Router3 LAN	Access-lists
+29	Permit ICMP traffic from Router3 to Router1	Access-lists
+30	Deny HTTP traffic from WAN to LAN on Router3	Access-lists

@@ -1,0 +1,31 @@
+ID	Requirement	Configuration Type
+1	Configure IP addresses on Router1 interfaces	Configuration Properties
+2	Configure IP addresses on Router2 interfaces	Configuration Properties
+3	Configure IP addresses on Router3 interfaces	Configuration Properties
+4	Configure IP addresses on Router4 interfaces	Configuration Properties
+5	Enable interfaces giga0/0 on Router1 and Router3	Configuration Properties
+6	Enable interfaces giga0/1 on Router1 and Router2	Configuration Properties
+7	Enable interfaces giga0/2 on Router1 and Router4	Configuration Properties
+8	Enable interfaces giga0/0 on Router2 and Router4	Configuration Properties
+9	Enable interfaces giga0/1 on Router2 and Router1	Configuration Properties
+10	Enable interfaces giga0/2 on Router2 and Router3	Configuration Properties
+11	Enable interfaces giga0/0 on Router3 and Router4	Configuration Properties
+12	Enable interfaces giga0/1 on Router3 and Router2	Configuration Properties
+13	Enable interfaces giga0/2 on Router3 and Router1	Configuration Properties
+14	Enable interfaces giga0/0 on Router4 and Router2	Configuration Properties
+15	Enable interfaces giga0/1 on Router4 and Router3	Configuration Properties
+16	Enable interfaces giga0/2 on Router4 and Router1	Configuration Properties
+17	Configure routing protocol between Router1 and Router2	Topology Routing Protocol
+18	Configure routing protocol between Router1 and Router3	Topology Routing Protocol
+19	Configure routing protocol between Router1 and Router4	Topology Routing Protocol
+20	Configure routing protocol between Router2 and Router4	Topology Routing Protocol
+21	Configure routing protocol between Router2 and Router3	Topology Routing Protocol
+22	Configure routing protocol between Router3 and Router4	Topology Routing Protocol
+23	Configure static route on Router1 for network 50.0.0.0/24	Routing
+24	Configure static route on Router2 for network 30.0.0.0/24	Routing
+25	Configure static route on Router3 for network 40.0.0.0/24	Routing
+26	Configure static route on Router4 for network 20.0.0.0/24	Routing
+27	Allow traffic from h1 to h2 through Router1	Access-lists
+28	Allow traffic from h2 to h1 through Router3	Access-lists
+29	Configure GRE tunnel between Router2 and Router4	Tunnel
+30	Configure IPSec tunnel between Router1 and Router3	Tunnel

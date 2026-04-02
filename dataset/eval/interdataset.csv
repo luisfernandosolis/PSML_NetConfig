@@ -1,0 +1,31 @@
+ID	Requirement	Configuration Type
+1	Configure Router1 LAN interface with IP address 192.168.1.1/24	Configuration Properties
+2	Configure Router1 WAN interface with DHCP	Configuration Properties
+3	Set Router2 LAN interface IP address to 10.0.0.1/24	Configuration Properties
+4	Configure Router2 WAN interface with static IP address 203.0.113.1/24	Configuration Properties
+5	Enable Router3 LAN interface with IP address 172.16.1.1/24	Configuration Properties
+6	Configure Router3 WAN interface with PPPoE	Configuration Properties
+7	Set Router4 LAN interface IP address to 192.168.2.1/24	Configuration Properties
+8	Configure Router4 WAN interface with DHCP	Configuration Properties
+9	Enable interface giga0/0 on Router1	Configuration Properties
+10	Configure Router1 interface giga0/1 with IP address 10.0.0.1/24	Configuration Properties
+11	Configure Router1 interface giga0/2 with IP address 40.0.0.1/24	Configuration Properties
+12	Enable interface giga0/0 on Router2	Configuration Properties
+13	Configure Router2 interface giga0/1 with IP address 10.0.0.2/24	Configuration Properties
+14	Configure Router2 interface giga0/2 with IP address 20.0.0.1/24	Configuration Properties
+15	Enable interface giga0/0 on Router3	Configuration Properties
+16	Configure Router3 interface giga0/1 with IP address 30.0.0.1/24	Configuration Properties
+17	Configure Router3 interface giga0/2 with IP address 20.0.0.2/24	Configuration Properties
+18	Enable interface giga0/0 on Router4	Configuration Properties
+19	Configure Router4 interface giga0/1 with IP address 30.0.0.2/24	Configuration Properties
+20	Configure Router4 interface giga0/2 with IP address 40.0.0.2/24	Configuration Properties
+21	Enable interface giga0/0 on h1	Configuration Properties
+22	Enable interface giga0/0 on h2	Configuration Properties
+23	Configure Router1 interface giga0/0 with IP address 192.168.1.1/24	Configuration Properties
+24	Configure Router2 interface giga0/0 with IP address 50.0.0.1/24	Configuration Properties
+25	Configure Router3 interface giga0/0 with IP address 172.16.1.1/24	Configuration Properties
+26	Configure Router4 interface giga0/0 with IP address 50.0.0.2/24	Configuration Properties
+27	Enable interface giga0/1 on Router1	Configuration Properties
+28	Enable interface giga0/1 on Router2	Configuration Properties
+29	Enable interface giga0/2 on Router1	Configuration Properties
+30	Enable interface giga0/2 on Router3	Configuration Properties

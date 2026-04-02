@@ -1,0 +1,31 @@
+ID	Requirement	Configuration Type
+1	Disable OSPF on Router1	Topology Routing Protocol
+2	Enable OSPF on Router2	Topology Routing Protocol
+3	Change the IP address of Router3 LAN interface to a new subnet	Configuration Properties
+4	Increase the bandwidth of Router1's WAN interface to accommodate more traffic	Configuration Properties
+5	Decrease the bandwidth of Router2's LAN interface to limit traffic	Configuration Properties
+6	Add a new VLAN to Router3's LAN interface for network segmentation	Configuration Properties
+7	Remove VLAN from Router4's LAN interface for simplification	Configuration Properties
+8	Configure Router1 to Router2 link to use a different encapsulation method	Configuration Properties
+9	Implement Quality of Service (QoS) policies on Router2 for VoIP traffic	Configuration Properties
+10	Increase the MTU size on Router3's WAN interface to support jumbo frames	Configuration Properties
+11	Configure Router4 to use a different routing protocol for WAN connectivity	Topology Routing Protocol
+12	Implement Port Address Translation (PAT) on Router1 for outbound internet access	Packet Forwarding
+13	Implement Dynamic NAT on Router3 for LAN to WAN communication	Packet Forwarding
+14	Configure Router2 to act as a DHCP server for its LAN network	Configuration Properties
+15	Disable IPv6 routing on Router4	Configuration Properties
+16	Implement IPv6 addressing on Router1's WAN interface	Configuration Properties
+17	Change the administrative distance of OSPF on Router2 to prioritize routes	Topology Routing Protocol
+18	Configure Router3 to advertise specific routes via OSPF	Topology Routing Protocol
+19	Implement IPsec VPN between Router1 and Router4 for secure communication	Tunnel
+20	Enable SNMP on all routers for network monitoring	Configuration Properties
+21	Configure Router2 to authenticate users connecting through Telnet	Configuration Properties
+22	Implement SSH on Router3 for secure remote management	Configuration Properties
+23	Configure Router4 to use a different DNS server for name resolution	Configuration Properties
+24	Implement Access Control Lists (ACLs) on Router1 to filter inbound traffic	Access-lists
+25	Change the priority of Router3 in the OSPF network	Topology Routing Protocol
+26	Configure Router4 to perform NAT overload for LAN to WAN traffic	Packet Forwarding
+27	Implement BGP routing protocol on Router1 for external connectivity	Topology Routing Protocol
+28	Configure Router2 to use a different routing metric for OSPF	Topology Routing Protocol
+29	Implement VRF (Virtual Routing and Forwarding) on Router3 for network isolation	Configuration Properties
+30	Configure Router4 to use a different default gateway for specific traffic	Routing
